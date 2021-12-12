@@ -5,12 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farstrup Produkter</title>
+
+<!-- Produkt navn -->
+<header id="main-header">
+	<h1>"Produkt navn"</h1>
+	<style>
+		#main-header{
+			text-align:center;
+		}
+	</style>
+	</header>
 </head>
 <body>
-<header>
-	<!-- Produkt navn -->
-	<h1>"Produkt navn"</h1>
-</header>
+
+
+		<!-- Farve valg/drodown liste -->
+<aside style="font-size:larger;float:right;width:350px">
+<?php
+include "colormenu.php";
+?>
+
+
+		<!-- Læg i kurv knap --> 
+		<br>
+	<form method="post" action="cart.php">
+		<div>
+		<input type="submit" name="kurvknap" value="Læg i kurv">
+		
+		</div>
+	</form>
+
+
+</aside>
+
+
+<?php
+//Inkludere "images.php" hvor alle billederne er
+include "images.php";
+?>
+
 
 	<!-- Info/specifikationer -->
 	<blockquote>
@@ -34,29 +67,6 @@
 	<p> Tryk <a href=<?php echo "help.php"?>>her </a> for hjælp til vores produkter. </p>
 </article>
 	</blockquote>
-
-
-	<!-- Farve valg/drodown liste -->
-<?php
-include "colormenu.php";
-?>
-
-
-		<!-- Læg i kurv knap --> 
-		<br><br><br>
-	<form>
-		<div>
-		<input type="submit" name="kurvknap"
-		value="Læg i kurv">
-		</div>
-	</form>
-
-
-<?php
-//Inkludere "images.php" hvor alle billederne er
-include "images.php";
-?>
-
 
 </body>
 </html>

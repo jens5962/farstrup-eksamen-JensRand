@@ -7,28 +7,35 @@
     <title>Billede</title>
 </head>
 <body>
-	<!-- Billeder -->
-    <a href="images/Billede1.jpg">
+	<!-- Billede galleri -->
+	<a href="images/Billede1.jpg">
 	<img src="images/Billede1.jpg" alt="eksempelbillede"
-	width="200">
+	width="300">
 </a>
+
 <a href="images/Billede2.jpg">
 	<img src="images/Billede2.jpg" alt="eksempelbillede"
-	width="200">
+	width="300">
 </a>
-	<br>
+
 <a href="images/Billede3.jpg">
 	<img src="images/Billede3.jpg" alt="eksempelbillede"
-	width="200">
+	width="300">
 </a>
+
 <a href="images/Billede4.jpg">
 	<img src="images/Billede4.jpg" alt="eksempelbillede"
-	width="200">
+	width="300">
 </a>
-	<br>
+
 <a href="images/Billede5.jpg">
 	<img src="images/Billede5.jpg" alt="eksempelbillede"
-	width="200">
+	width="300">
+</a>
+
+<a href="images/Billede6.jpg">
+	<img src="images/Billede6.jpg" alt="eksempelbillede"
+	width="300">
 </a>
 </body>
 </html>

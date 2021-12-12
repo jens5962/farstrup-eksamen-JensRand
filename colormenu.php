@@ -10,10 +10,10 @@
     
 <p> <strong>Vælg stof/læder & træ farve</strong> </p>
 	
-	<form>
-		<div>
+	<form method="POST">
+		
 			<label>Stof/læder farve</label>
-			<select name="Stof/læder farve">
+			<select name="fabriccolor">
 				<option value="Hvid">Hvid</option>
 				<option value="Blå">Blå</option>
 				<option value="Sort">Sort</option>
@@ -24,7 +24,7 @@
 			<br><br>
 
 			<label>Træ farve</label>
-			<select name="Træ farve">
+			<select name="woodcolor">
 				<option value="Sort">Sort</option>
 				<option value="Hvid">Hvid</option>
 				<option value="Ibenholt">Ibenholt</option>
@@ -32,7 +32,22 @@
 				<option value="Eg">Eg</option>
 				<option value="Mahogni">Mahogni</option>
 			</select>
-		</div>
+		<?php //<input type="submit" name="farve" value="Send"> ?>
 	</form>
+	
+<?php
+if(isset($_POST["color"])) {
+	$varName = $_POST["fabriccolor"];
+	$varName = $_POST["woodcolor"];
+}
+?>
+
+
 </body>
 </html>
+
+
+<?php
+//if(isset($_POST["woodcolor"])) {
+//	echo "valgte farver: ".htmlspecialchars($_POST["woodcolor"]);
+//}
