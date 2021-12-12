@@ -7,7 +7,25 @@
     <title>Hjælp</title>
 </head>
 <body>
+    <!-- Kontakt information -->
     <p> <strong>Hjælp</strong> </p>
     <p> Her finder du vores kontakt information. </p>
+
+    <table>
+        <thread>
+            <tr>
+                <th>Email</th>
+                <th>Telefon</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <br>
+                <td>"Email til support"</td>
+                <td>"Telefonnummer til support"</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>

@@ -27,8 +27,41 @@
 	<p> <strong>Hjælp</strong> </p>
 	<p> Tryk <a href=<?php echo "help.php"?>>her </a> for hjælp til vores produkter. </p>
 
-	<!-- Sikkerhed -->
-	<form></form> 	
+	<!-- Farve valg/drodown liste -->
+	<p> <strong>Vælg stof/læder & træ farve</strong> </p>
+	
+	<form>
+		<div>
+			<label>Stof/læder farve</label>
+			<select name="Stof/læder farve">
+				<option value="Hvid">Hvid</option>
+				<option value="Blå">Blå</option>
+				<option value="Sort">Sort</option>
+				<option value="Brun">Brun</option>
+				<option value="Grå">Grå</option>
+			</select>	
+			
+			<br><br>
 
+			<label>Træ farve</label>
+			<select name="Træ farve">
+				<option value="Sort">Sort</option>
+				<option value="Hvid">Hvid</option>
+				<option value="Ibenholt">Ibenholt</option>
+				<option value="Birk">Birk</option>
+				<option value="Eg">Eg</option>
+				<option value="Mahogni">Mahogni</option>
+			</select>
+
+		<!-- Læg i kurv knap --> 
+		<br><br><br>
+		
+		<input type="submit" name="kurvknap"
+		value="Læg i kurv">
+		</div>
+	</form>
+
+	<!-- Billeder -->
+	<img>
 </body>
 </html>
