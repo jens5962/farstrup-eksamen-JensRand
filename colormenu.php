@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hjælp</title>
+    <title></title>
 </head>
 <body>
 	
@@ -33,7 +33,7 @@
 				<option value="Mahogni">Mahogni</option>
 			</select>
 		
-			<!-- Knap -->
+			<!-- Knap til farvevalg - sender bruger til cart.php -->
 			<br><br>
 			<input type="submit" name="colorbutton" value="Læg i kurv">
 			

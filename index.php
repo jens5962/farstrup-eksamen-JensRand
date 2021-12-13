@@ -19,7 +19,7 @@
 <body>
 
 
-		<!-- Farve valg/drodown liste -->
+<!-- Farve valg/drodown liste -->
 <aside style="font-size:larger;float:right;width:350px">
 <?php
 include "colormenu.php";
@@ -33,8 +33,8 @@ include "images.php";
 ?>
 
 
-	<!-- Info/specifikationer -->
-	<blockquote>
+<!-- Info/specifikationer -->
+<blockquote>
 <article>
 	<p> <strong>Information</strong> </p>
 	<p> "Produkt navn" er lavet i... </p>
@@ -54,7 +54,7 @@ include "images.php";
 	<p> <strong>Hjælp</strong> </p>
 	<p> Tryk <a href=<?php echo "help.php"?>>her </a> for hjælp til vores produkter. </p>
 </article>
-	</blockquote>
+</blockquote>
 
 </body>
 </html>

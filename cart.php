@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kurv</title>
+    <title>Indkøbskurv</title>
 </head>
 <body>
-  <!-- Kurv -->
+<blockquote>
   <p> <strong>Kurv</strong> </p>
     <p> Din kurv indeholder: </p>
 
 
-  <!-- If statement til at modtage information fra dropdown menuer -->
+<!-- If statement til at modtage information fra dropdown menuer -->
 <pre>
 <?php
 if(isset($_POST["fabriccolor"]) && isset($_POST["woodcolor"])) {
@@ -27,6 +27,11 @@ else{
 }
 ?>
 </pre>
+<!-- Knap til betaling - sender bruger til pay.php -->
+<form action="pay.php"> 
+<input type="submit" name="paybutton" value="Til Betaling">
+</form>
+</blockquote>
 
 </body>
 </html>
