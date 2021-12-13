@@ -24,18 +24,6 @@
 <?php
 include "colormenu.php";
 ?>
-
-
-		<!-- Læg i kurv knap --> 
-		<br>
-	<form method="post" action="cart.php">
-		<div>
-		<input type="submit" name="kurvknap" value="Læg i kurv">
-		
-		</div>
-	</form>
-
-
 </aside>
 
 

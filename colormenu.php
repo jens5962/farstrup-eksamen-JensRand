@@ -7,13 +7,13 @@
     <title>Hjælp</title>
 </head>
 <body>
-    
-<p> <strong>Vælg stof/læder & træ farve</strong> </p>
 	
-	<form method="POST">
+<p> <strong>Vælg stof/læder & træ farve</strong> </p>
+			<!-- Drop down lister -->
+	<form method="POST" input type="submit" action="cart.php" name="colors">
 		
 			<label>Stof/læder farve</label>
-			<select name="fabriccolor">
+			<select name="fabriccolor" id="fabriccolor">
 				<option value="Hvid">Hvid</option>
 				<option value="Blå">Blå</option>
 				<option value="Sort">Sort</option>
@@ -24,7 +24,7 @@
 			<br><br>
 
 			<label>Træ farve</label>
-			<select name="woodcolor">
+			<select name="woodcolor" id="woodcolor">
 				<option value="Sort">Sort</option>
 				<option value="Hvid">Hvid</option>
 				<option value="Ibenholt">Ibenholt</option>
@@ -32,22 +32,18 @@
 				<option value="Eg">Eg</option>
 				<option value="Mahogni">Mahogni</option>
 			</select>
-		<?php //<input type="submit" name="farve" value="Send"> ?>
+		
+			<!-- Knap -->
+			<br><br>
+			<input type="submit" name="colorbutton" value="Læg i kurv">
+			
+			<!-- If statement til at sende til cart.php -->
+			<?php 
+			if (isset($fabriccolor) || isset($woodcolor)) {
+			$fabriccolor = $_POST["fabriccolor"]; 
+			$woodcolor = $_POST["woodcolor"];
+			}
+			 ?>
 	</form>
-	
-<?php
-if(isset($_POST["color"])) {
-	$varName = $_POST["fabriccolor"];
-	$varName = $_POST["woodcolor"];
-}
-?>
-
-
 </body>
 </html>
-
-
-<?php
-//if(isset($_POST["woodcolor"])) {
-//	echo "valgte farver: ".htmlspecialchars($_POST["woodcolor"]);
-//}

@@ -9,7 +9,7 @@
 <body>
     <!-- Kontakt information -->
     <p> <strong>Hjælp</strong> </p>
-    <p> Her finder du vores kontakt information. </p>
+    <p> Har du problemer med en af vores produkter eller har sprøgsmål, så kontakt venligst vores support på email eller telefon. </p>
 
     <table>
         <thread>
